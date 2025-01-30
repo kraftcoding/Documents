@@ -1,0 +1,2 @@
+/usr/bin/vmhgfs-fuse -h
+/usr/bin/vmhgfs-fuse .host:/ /home/kali/Desktop -o subtype=vmhgfs-fuse,allow_other

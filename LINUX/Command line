@@ -1,0 +1,8 @@
+systemctl status tor
+echo " " > ~/.zsh_history 
+cd /mnt/hgfs/AUX/web_copy
+httrack http://example.com
+cat /etc/os-release
+
+sudo apt autoremove 
+sudo apt clean 

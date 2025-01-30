@@ -1,0 +1,32 @@
+1) Update the package repository:
+# apt update
+
+2) Install the Tor package:
+# apt install tor
+
+3) Verify the installation by checking the status of the service:
+# systemctl status tor
+
+4) Enable the Tor service to start automatically at boot time:
+# systemctl enable tor
+
+5) To start the Tor service, type:
+# systemctl start tor
+
+6) By default, the Tor service listens on port 9050. To verify that the service is running anport, type:
+# ss -antu | grep 9050
+
+To start use the command:
+	sudo systemctl start tor
+
+To check the status:
+	systemctl status tor
+
+To add the Tor service to startup so that it starts every time the computer is booting:	
+	sudo systemctl enable tor
+
+To stop the Tor service:
+	sudo systemctl stop tor
+
+To remove from startup:
+	sudo systemctl disable tor

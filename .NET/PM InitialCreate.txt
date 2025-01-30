@@ -1,0 +1,8 @@
+Run in Package Manager Console:
+
+    Drop-Database
+    Remove-Migration
+    Add-Migration InitialCreate
+    update-database
+
+Note: When you run any Entity Framework Core command from the Package Manager Console within Visual Studio, the default project must be your migration assembly SyWaterStandardLibrary

@@ -1,0 +1,11 @@
+HTTrack
+
+HTTrack is a free and open source software used to download data from websites on the internet. It is an easy-to-use software developed by Xavier Roche. The downloaded data is stored on localhost in the same structure as was on the original website. The procedure to use this utility is as follows:
+
+First, install HTTrack on your machine by running the following command:
+
+sudo apt-get install httrack
+
+httrack https://www.wisdomlib.org/ -o ./
+
+The above command will fetch all the data from the site and save it in the current directory.

@@ -1,0 +1,11 @@
+ERROR:
+E: Failed to fetch http://mirror.serverius.net/kali/pool/main/l/llvm-toolchain-16/llvm-16_16.0.6-19_amd64.deb  Connection timed out [IP: 91.221.69.39 80]
+E: Failed to fetch http://mirror.vinehost.net/kali/pool/main/l/linux/linux-image-6.6.9-amd64_6.6.9-1kali1_amd64.deb  Connection timed out [IP: 81.179.123.56 80]
+E: Failed to fetch http://mirror.serverius.net/kali/pool/main/o/openjdk-17/openjdk-17-jre-headless_17.0.10+7-1_amd64.deb  Connection timed out [IP: 91.221.69.39 80]
+E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?
+
+ACCIONES:
+sudo apt --fix-missing update
+sudo apt update
+sudo apt install -f
+sudo apt upgrade
